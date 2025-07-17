@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bruno",
+      "hasVision": true
+    },
+    {
+      "id": "2",
+      "name": "Carlos",
+      "hasVision": true
+    },
+    {
+      "id": "3",
+      "name": "Juan",
+      "hasVision": false
+    }
+  ],
+  "visions": [
+    {
+      "id": "v1",
+      "userId": "1",
+      "content": "I wake up in my beach house, calm and energized..."
+    },
+    {
+      "id": "v2",
+      "userId": "2",
+      "content": "Im going to the gym 3 times a week..."
+    }
+  ]
+}
