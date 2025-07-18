@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import visionsService from '../../services/visions'
 import usersService from '../../services/users'
-import Vision from './vision'
+import VisionNew from './visionNew'
 import VisionEditor from './visionEditor'
 
 const VisionSection = () => {
@@ -33,7 +33,8 @@ const VisionSection = () => {
     return (
         <div className="w-3/5">
             <h1>MY VISION</h1>
-            {user.hasVision == true ? <Vision vision={vision}/> : <VisionEditor />}
+            <VisionEditor vision={vision}/>
+            {user.hasVision == true ? <VisionEditor vision={vision}/> : <VisionNew />}
         </div>
     )
 }

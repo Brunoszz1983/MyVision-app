@@ -1,4 +1,4 @@
-import VisionSection from '../features/vision/visionSection'
+import VisionSection from '../features/vision/visionNew'
 
 const Dashboard = () => {
 

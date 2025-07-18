@@ -1,9 +1,9 @@
-const VisionEditor = () => {
+const VisionEditor = ({vision}) => {
 
     return (
         <div className="w-full">
-            <div><input></input></div>
-            <div><button>Publish</button></div>
+            <p>{vision.content}</p>
+            <button>Edit</button>
         </div>
     )
 }
