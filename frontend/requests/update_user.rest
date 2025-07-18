@@ -1,0 +1,6 @@
+PATCH http://localhost:3002/users HTTP/1.1
+content-type: application/json
+
+{
+    "hasVision": true
+}

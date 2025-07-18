@@ -12,7 +12,7 @@
     },
     {
       "id": "3",
-      "name": "Juan",
+      "name": "Pedro",
       "hasVision": false
     }
   ],
@@ -25,7 +25,7 @@
     {
       "id": "v2",
       "userId": "2",
-      "content": "Im going to the gym 3 times a week..."
+      "content": "no me gusta la ensada"
     }
   ]
 }

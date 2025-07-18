@@ -5,3 +5,15 @@ body {
 h1 {
   font-size:30px;
 }
+
+button {
+  background-color: black;
+  color: white;
+  padding: 1px 15px;
+  margin: 5px;  
+}
+
+input {
+  background-color:lightgray;
+  border-color:darkgray;
+}
