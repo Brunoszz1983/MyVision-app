@@ -13,7 +13,7 @@
     {
       "id": "3",
       "name": "Pedro",
-      "hasVision": false
+      "hasVision": true
     }
   ],
   "visions": [
@@ -25,7 +25,12 @@
     {
       "id": "v2",
       "userId": "2",
-      "content": "no me gusta la ensada"
+      "content": "Hoy si me gusta la ensalada"
+    },
+    {
+      "id": "v3",
+      "userId": "3",
+      "content": "Veo la luz... y quema"
     }
   ]
 }

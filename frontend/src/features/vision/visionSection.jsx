@@ -58,10 +58,10 @@ const VisionSection = () => {
     //console.log(vision.content)
 
     return (
-        <div className="w-3/5">
+        <>
             <h1>MY VISION</h1>
             {user.hasVision == true ? <VisionEditor vision={vision} updateVision={updateVision} setUpdateVision={setUpdateVision} handleUpdate={handleUpdate}/> : <VisionNew setNewVision={setNewVision} newVision={newVision} handleNew={handleNew}/>}
-        </div>
+        </>
     )
 }
 
